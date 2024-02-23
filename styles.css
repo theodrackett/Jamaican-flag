@@ -30,7 +30,7 @@
     height: 0;
     border-top: 130px solid transparent;
     border-bottom: 130px solid transparent;
-    border-left: 280px solid black; /* Change color as needed */
+    border-left: 280px solid black; 
     position: absolute;
     top: 20px;
   }
@@ -39,7 +39,7 @@
       height: 0;
       border-top: 130px solid transparent;
       border-bottom: 130px solid transparent;
-      border-right: 280px solid black; /* Change color as needed */
+      border-right: 280px solid black; 
       position: absolute;
       right: 0px;
       top: 20px;
