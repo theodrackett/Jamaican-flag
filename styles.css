@@ -1,0 +1,48 @@
+.main-box {
+    background-color: gold;
+    height: 300px;
+    width: 600px;
+    position: relative;
+}
+
+.green-box-top {
+    width: 0;
+    height: 0;
+    border-left: 280px solid transparent;
+    border-right: 280px solid transparent;
+    border-top: 130px solid green;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+  }
+.green-box-bottom {
+    width: 0;
+    height: 0;
+    border-left: 280px solid transparent;
+    border-right: 280px solid transparent;
+    border-bottom: 130px solid green;
+    position: absolute;
+    left: 20px;
+    bottom: 0px;
+  }
+.black-box-left {
+    width: 0;
+    height: 0;
+    border-top: 130px solid transparent;
+    border-bottom: 130px solid transparent;
+    border-left: 280px solid black; /* Change color as needed */
+    position: absolute;
+    top: 20px;
+  }
+  .black-box-right {
+      width: 0;
+      height: 0;
+      border-top: 130px solid transparent;
+      border-bottom: 130px solid transparent;
+      border-right: 280px solid black; /* Change color as needed */
+      position: absolute;
+      right: 0px;
+      top: 20px;
+    }
+
+
